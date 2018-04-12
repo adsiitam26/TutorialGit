@@ -8,5 +8,5 @@ Para poner una *llave* (`settings.xml`) y poner código en Nexus, debemos:
 * Si se requiere poner más *settings*, entonces todo el contenido de la etiqueta de **server** de la nueva *llave* iría bajo la etiqueta de **servers** en el mismo archivo (`$ ~/.m2/settings.xml`).
 
 ## Referencias
-*además de la clase de ADSI)*
+*además de la clase de ADSI*
 * [Nexus Repository Manager](https://books.sonatype.com/nexus-book/2.11/reference/_adding_credentials_to_your_maven_settings.html)

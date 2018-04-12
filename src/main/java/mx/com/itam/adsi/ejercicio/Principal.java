@@ -15,4 +15,18 @@ public class Principal{
       res = res*(alphabet.length()) + alphabet.indexOf(c);
     return res;
   }
+  /**
+   * Convertimos un String en su equivalencia en ASCII-binario
+   * @param  src String que queremos convertir
+   * @return     String con la representación de src en ASCII-binario
+   */
+  public String string2Binary(String src){
+    String res = "";
+
+    for (int i=0; i<src.length; i++) {
+      res += Integer.toBinaryString(src.charAt( i ));
+    }
+
+    return res;
+  }
 }
