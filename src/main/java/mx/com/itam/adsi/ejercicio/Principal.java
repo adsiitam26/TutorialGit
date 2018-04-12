@@ -15,4 +15,17 @@ public class Principal{
       res = res*(alphabet.length()) + alphabet.indexOf(c);
     return res;
   }
+  /**
+   * Convierte un String a su suma en ASCII
+   * @param  src String (o suma de char's) que se quiere transformar
+   * @return     Suma de cada caracter del String en ASCII
+   */
+  public int string2AsciiInt(String src){
+    int res = 0;
+    for (int i=0; i<src.length; i++) {
+      res += src.charAt(i);
+    }
+
+    return res;
+  }
 }
